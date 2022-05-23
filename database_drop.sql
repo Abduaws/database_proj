@@ -1,0 +1,9 @@
+drop table studies;
+drop table course;
+drop table department;
+drop table worker;
+drop table lecturer;
+drop table salaried_employee;
+drop table student;
+drop table person;
+drop table faculty;

@@ -1,0 +1,9 @@
+delete from studies;
+delete from course;
+delete from department;
+delete from worker;
+delete from lecturer;
+delete from salaried_employee;
+delete from student;
+delete from person;
+delete from faculty;
