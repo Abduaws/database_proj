@@ -42,8 +42,8 @@ insert into department values(
 
 insert into person values(
 	5555,
-    "moahmmed",
-    "ayman",
+    "mahmoud",
+    "madian",
     "2002-11-01",
     "123 apartment street",
 	"www.email@gmail.com",
@@ -52,8 +52,8 @@ insert into person values(
 );
 insert into person values(
 	5556,
-    "moahmmed",
-    "ayman",
+    "ziad",
+    "atef",
     "2002-11-01",
     "123 apartment street",
 	"www.email@gmail.com",
@@ -62,8 +62,8 @@ insert into person values(
 );
 insert into person values(
 	5557,
-    "moahmmed",
-    "ayman",
+    "reda",
+    "el farouk",
     "2002-11-01",
     "123 apartment street",
 	"www.email@gmail.com",
@@ -72,8 +72,8 @@ insert into person values(
 );
 insert into person values(
 	5558,
-    "moahmmed",
     "ayman",
+    "mohammed",
     "2002-11-01",
     "123 apartment street",
 	"www.email@gmail.com",
@@ -82,8 +82,8 @@ insert into person values(
 );
 insert into person values(
 	5559,
-    "moahmmed",
-    "ayman",
+    "shagaret",
+    "el lotus",
     "2002-11-01",
     "123 apartment street",
 	"www.email@gmail.com",
