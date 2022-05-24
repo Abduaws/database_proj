@@ -32,20 +32,30 @@ where course.department_name = department.name
 and department.name = "architecture"
 and course.credit_hours > 5;
 
-select avg(worker.salary)
-from worker, salaried_employee, person
+select avg(salaried_employee.Salary)
+from lecturer, salaried_employee, person
 where person.id = salaried_employee.id
-AND salaried_employee.id = worker.id
+AND salaried_employee.id = lecturer.id
 AND person.university_name = "Shams Ain";
 
 select c1.course_name, c2.course_name
 from course c1, course c2
 where c2.course_ID = c1.preReq_course;
 
+select person.First_Name, lecturer.ID, person.Email, salaried_employee.Salary
+from person, lecturer, salaried_employee
+where salaried_employee.ID = lecturer.ID
+and person.ID = salaried_employee.ID
+and salaried_employee.Salary > 2000
+order by salaried_employee.Salary;
 
 
-
-
+select person.First_Name, person.ID , course.Course_Name 
+from person, student, course, studies
+where person.ID = student.ID 
+and student.ID = studies.Student_ID 
+and studies.Course_ID = course.Course_ID
+and course.Course_ID = 338;
 
 
 

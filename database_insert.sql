@@ -216,67 +216,59 @@ insert into student values(
 
 
 insert into salaried_employee values(
-	200,
+	1234,
     4542
 );
 insert into salaried_employee values(
-	200,
+	3421,
     5555
 );
 insert into salaried_employee values(
-	200,
+	4564,
     5556
 );
 insert into salaried_employee values(
-	200,
+	2363,
     5557
 );
 insert into salaried_employee values(
-	200,
+	1146,
     5558
 );
 insert into salaried_employee values(
-	200,
+	9754,
     5559
 );
 insert into salaried_employee values(
-	200,
+	1234,
     5560
 );
 insert into salaried_employee values(
-	200,
+	4321,
     5561
 );
 insert into worker values(
-	5,
     4542
 );
 insert into lecturer values(
-	1000,
     5555
 );
 insert into lecturer values(
-	1000,
     5556
 );
 insert into lecturer values(
-	1000,
     5557
 );
 insert into lecturer values(
-	1000,
     5558
 );
 insert into lecturer values(
-	1000,
     5559
 );
 insert into lecturer values(
-	1000,
     5560
 );
 insert into lecturer values(
-	1000,
     5561
 );
 
