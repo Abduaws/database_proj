@@ -25,3 +25,40 @@ from person, lecturer, salaried_employee
 where person.ID = salaried_employee.ID
 AND lecturer.ID = salaried_employee.ID
 AND person.Date_Of_Birth > "1950-11-01";
+
+select course_name
+from course, department
+where course.department_name = department.name
+and department.name = "architecture"
+and course.credit_hours > 5;
+
+select avg(worker.salary)
+from worker, salaried_employee, person
+where person.id = salaried_employee.id
+AND salaried_employee.id = worker.id
+AND person.university_name = "Shams Ain";
+
+select c1.course_name, c2.course_name
+from course c1, course c2
+where c2.course_ID = c1.preReq_course;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

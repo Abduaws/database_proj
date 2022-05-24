@@ -17,7 +17,20 @@ insert into faculty values(
     "domyat university"
 );
 
-
+insert into faculty values(
+	"ahmed mahmoud",
+    "321 Kobry al qoba",
+    "Faculty of engineering",
+    "cairo uni"
+    );
+    
+insert into department values(
+	"Mohamed el metiny",
+    "architecture",
+    "faculty of engineering",
+    "cairo uni"
+    );
+    
 
 insert into department values(
 	"adham amr",
@@ -332,6 +345,39 @@ insert into course values(
     "Computer Enginnering",
     5560
 );
+
+insert into course values(
+	455,
+    "urban infrastracture",
+    5,
+    500,
+    333,
+    "architecture",
+    5560
+    );
+    
+    insert into course values(
+	465,
+    "architecture project management",
+    6,
+    500,
+    331,
+    "architecture",
+    5561
+    );
+    
+    insert into course values(
+	475,
+    "urban informatics",
+    7,
+    500,
+    333,
+    "architecture",
+    5556
+    );
+    
+
+   
 
 insert into studies values(
 	6458,
